@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+
+#adminDashboardContainer{
+	height: 60px;
+	border: 1px solid green;
+	border-radius: 10px;
+	background-color: steelblue;
+    color: whitesmoke;
+}
+
+#adminHeading{
+	display: table;
+	margin: 0px auto;
+	font-size: 30px;
+}
+
+#addAdminContainer{
+	width: 300px;
+    margin: 0px auto 20px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    /* display: inline-block; */
+}
+#submitBtn{
+	width: 100%; 
+	margin: 5px auto; 
+	height: 25px;
+}
+
+#addDefaultProfilePictureContainer{
+	/* display: inline-block; */
+	width: 300px;
+    margin: 0px auto;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+#userListContainer{
+	 margin: 0px auto; 
+	 width: 1100px; 
+	 padding: 20px;
+}
+
+#userListHeading{
+	margin: 20px auto; 
+	width: 800px; 
+	text-align: center;
+}
+
+#userListTable{
+	border: 1px solid orange; 
+	border-radius: 10px;
+	width: 1050px;
+	margin: 20px auto;
+	border-collapse: collapse;
+}
+
+#userListTable th{
+	border: 2px solid gray;
+    background-color: antiquewhite;
+    height: 40px;
+}
+
+#userListTable td{
+	border: 1px solid black; 
+	width: 150px;
+	padding: 10px;
+	text-align: center;
+}
+
+#actionsBtns{
+	display: inline-block;
+}

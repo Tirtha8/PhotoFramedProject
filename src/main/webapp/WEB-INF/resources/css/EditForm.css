@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+
+#brandName{
+	text-align: center;
+    font-size: 25px;
+    display: block;
+    font-weight: bold;
+	/* border: 2px solid black; */
+}
+
+#welcomeHead{
+	background-color: whitesmoke;
+    color: black;
+    padding: 2px 7px;
+    border-radius: 10px;
+	font-size: 17px;
+}
+
+#dashboardContainer{
+	border: 1px solid black;
+    border-radius: 10px;
+	background: darkslategray;
+    color: white;
+    padding: 5px;
+}
+
+
+#dashboardOptionHome{
+	text-decoration: none;
+	margin: 5px 50px;
+	font-size: 20px;
+	color: white;
+}
+#dashboardOptionProfile{
+	text-decoration: none;
+	margin: 5px 50px;
+	font-size: 20px;
+	color: white;
+}
+#dashboardOptionLogout{
+	text-decoration: none;
+    float: right;
+    padding: 2px 10px;
+    right: 10px;
+    border: 1px solid gray;
+    color: whitesmoke;
+    background-color: black;
+}
+
+#editProfileHead{
+	text-align: center;
+	font-size: 25px;
+}
+
+#editFormContainer{
+	margin: 10px auto;
+	padding: 20px;
+	border: 2px solid gray;
+	border-radius: 20px;
+	width: 400px;
+}
+
+table{
+	margin: 10px;
+	padding: 15px 10px;
+	border: 1px solid orange;
+	width: 380px;
+	border-radius: 10px;
+}
+
+/* table tr{
+	border: 1px solid blue;
+	margin: 10px 0px;
+} */
+
+table td{
+	
+	width: 50%;
+	/* border: 1px solid green; */
+}

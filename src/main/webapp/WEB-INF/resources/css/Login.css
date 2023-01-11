@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+body {
+  /* background-image: url('/resources/images/firstPage.jpg'); */
+}
+
+#loginDashboard{
+	text-align: center;
+    font-size: 40px;
+    border: 2px solid grey;
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#loginFormContainer{
+	padding: 20px;
+	width: 300px;
+	height: 100px;
+	margin: 20px auto;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+
+#loginBtn{
+	width: 100%;
+	margin: 10px 0px;
+	height: 25px;
+}

@@ -1,0 +1,106 @@
+@charset "ISO-8859-1";
+
+#adminDashboardContainer{
+	height: 60px;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: steelblue;
+    color: whitesmoke;
+}
+
+#adminHeading{
+	display: table;
+	margin: 0px auto;
+	font-size: 30px;
+}
+
+#imageContainer{
+	border: 1px solid black;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    background: #cccccc;
+    width: 500px;
+}
+
+#userHandle{
+	padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background: black;
+    font-size: 15px;
+}
+
+#homePostCaption{
+	/* border: 1px solid blue;  */
+    padding: 0px 0px;
+    margin: -10px 0px -15px 5px;;
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+#homePost{
+	width: 500px;
+	height: 400px;
+	margin: 20px 0px;
+}
+
+#homePostActions{
+	/* border: 1px solid #c6c4bb; */
+	width: 500px;
+	margin: -10px 0px 15px 0px;
+}
+
+#homePostAction{
+	width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#commentBox{	
+	border-radius: 10px;
+    margin: 5px 0px;
+    background-color: #464646;
+    width: fit-content;
+    padding: 5px 10px;
+    color: white;
+}
+
+
+#commentorUsername{
+	border: 1px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: black;
+    padding: 2px 15px;
+    width: min-content;
+    margin: -2px;
+}
+
+#commentString{
+    font-size: 14px;
+    padding: 5px 18px;
+    border-radius: 10px;
+    color: white;
+    background-color: #1e1e1e;
+	width: fit-content;
+}
+
+#postCommentSection{
+	border-radius: 10px;
+	border: 1px solid gray;
+	margin: 15px 10px;
+	padding: 5px 10px;
+	background: #bbbcbd;
+}
+
+#homePostComment{
+	margin: 10px;
+	border: 1px solid #c6c4bb;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
